@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">@color/App_BackColor</color>
+    <color name="colorPrimaryDark">@color/Toolbar_BackColor</color>
+    <color name="colorAccent">@color/App_AccentColor</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+
+    <color name="maroon2">#D90434</color>
+
+    <!-- App -->
+    <color name="App_BackColor">@color/teal</color>
+    <color name="App_AccentColor">@color/white</color>
+    <!-- /App -->
+
+    <!-- Toolbar -->
+    <color name="Toolbar_TextColor">@color/white</color>
+    <color name="Toolbar_BackColor">@color/black</color>
+    <!-- /Toolbar -->
+
+    <!-- BottomNav -->
+    <color name="BottomNav_BackColor">@color/black</color>
+    <!-- /BottomNav -->
+
+    <!-- Card -->
+    <color name="Card_BorderColor">@color/white</color>
+    <color name="Card_BackColor">@color/maroon2</color>
+    <color name="Card_AccentColor">@color/white</color>
+    <color name="Card_TextColor">@color/white</color>
+    <color name="Card_Hint_TextColor">@color/black</color>
+    <!-- Card/ -->
+
+    <!-- Button -->
+    <color name="Button_BorderColor">@color/white</color>
+    <color name="Button_BackColor">@color/maroon</color>
+    <color name="Button_TextColor">@color/white</color>
+    <!-- /Button -->
+
+    <!-- Ripple -->
+    <color name="Ripple_ForeColor">@color/white</color>
+    <color name="Ripple_BackColor">@color/gray</color>
+    <!-- /Ripple -->
+</resources>

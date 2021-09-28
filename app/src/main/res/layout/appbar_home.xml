@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:contentInsetStart="0dp"
+        android:contentInsetEnd="0dp"
+        android:background="@color/Toolbar_BackColor"
+        app:layout_scrollFlags="scroll|enterAlways"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/ivHomeHAB"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/App_MarginHor_M"
+                android:contentDescription="@string/CD_Icon"
+                android:src="@drawable/ic_home_bwhite_32"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/App_MarginHor_M"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/ivHomeHAB"
+                android:text="@string/Home_Title"
+                android:textSize="20dp"
+                android:textColor="@color/Toolbar_TextColor"
+                />
+        </RelativeLayout>
+    </Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

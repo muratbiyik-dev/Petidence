@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:contentInsetStart="0dp"
+    android:contentInsetEnd="0dp"
+    android:background="@color/Toolbar_BackColor"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/ivMapMTB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/App_MarginHor_M"
+            android:contentDescription="@string/CD_Icon"
+            android:src="@drawable/ic_map_bwhite_32"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/App_MarginHor_M"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ivMapMTB"
+            android:text="@string/Map_Title"
+            android:textSize="20dp"
+            android:textColor="@color/Toolbar_TextColor"
+            />
+    </RelativeLayout>
+</Toolbar>
+

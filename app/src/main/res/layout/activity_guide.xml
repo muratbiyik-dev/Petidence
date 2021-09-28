@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/App_BackColor"
+    tools:context=".activity.GuideActivity"
+    >
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/containerGA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomToolbarGA"
+        />
+    <Toolbar
+        android:id="@+id/bottomToolbarGA"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:contentInsetStart="0dp"
+        android:contentInsetEnd="0dp"
+        android:background="@color/Toolbar_BackColor"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/ivBackGA"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/App_MarginHor_M"
+                android:contentDescription="@string/CD_Icon"
+                android:src="@drawable/ic_back_bwhite_32"
+                android:foreground="@drawable/ripple_selectable"
+                />
+            <TextView
+                android:id="@+id/tvPetNameGA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Pet_Name_Sample"
+                android:textSize="20dp"
+                android:textColor="@color/Toolbar_TextColor"
+                />
+        </RelativeLayout>
+    </Toolbar>
+</RelativeLayout>

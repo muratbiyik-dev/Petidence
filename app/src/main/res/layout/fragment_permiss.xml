@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.PermissFragment"
+    >
+    <include
+        layout="@layout/toolbar_map"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/App_Margin_S"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/App_Margin_S"
+            android:contentDescription="@string/CD_Image"
+            android:src="@drawable/img_app"
+            />
+        <TextView
+            android:id="@+id/tvPermissReqPF2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/App_Margin_S"
+            android:gravity="center"
+            android:text="@string/Permiss_Req_Location"
+            android:textSize="@dimen/App_TextSize_S"
+            android:textColor="@color/Card_TextColor"
+            android:background="@drawable/shape_card"
+            />
+        <TextView
+            android:id="@+id/tvPermissGrantPF2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Permiss_Grant"
+            android:textSize="@dimen/App_TextSize_S"
+            android:textColor="@color/Button_TextColor"
+            android:background="@drawable/shape_card_button"
+            />
+    </LinearLayout>
+</LinearLayout>

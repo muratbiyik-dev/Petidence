@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Petidence</string>
+
+    <!-- API Key -->
+    <string name="API_Key_Petidence" translatable="false">"Google-Maps-API-Key"</string>
+    <!-- API Key -->
+
+    <!-- Content Description -->
+    <string name="CD_Image" translatable="false">"Image"</string>
+    <string name="CD_Icon" translatable="false">"Icon"</string>
+    <!-- /Content Description -->
+
+    <!-- MainActivity -->
+    <!-- PermissFragment -->
+    <string name="Permiss_Req_Location">"Yakınınızdaki veteriner ve evcil hayvan dükkanlarını görebilmeniz için konum erişimine izin vermeniz gerekiyor."</string>
+    <string name="Permiss_Grant">"İzin Ver"</string>
+    <!-- /PermissFragment -->
+
+    <!-- HomeFragment -->
+    <string name="Home_Title">"Ana Sayfa"</string>
+    <!-- /HomeFragment -->
+
+    <!-- MapFragment -->
+    <string name="Map_Title">"Faydalı Yerler"</string>
+    <string name="Map_Find_Vets">"Veterinerler"</string>
+    <string name="Map_Find_Stores">"Evcil Hayvan Dükkanları"</string>
+    <!-- /MapFragment -->
+
+    <!-- PetFragment -->
+    <string name="Pet_Title">"Evcil Hayvanlarım"</string>
+
+    <!-- Pet -->
+    <string name="Pet_Type_Hint">"Evcil Hayvanın Türü"</string>
+
+    <string name="Pet_Type_Cat">"Kedi"</string>
+    <string name="Pet_Type_Dog">"Köpek"</string>
+    <string name="Pet_Type_Bird">"Kuş"</string>
+    <string name="Pet_Type_Fish">"Balık"</string>
+
+    <string name="Pet_Sci_Name_Cat">"Felis catus"</string>
+    <string name="Pet_Sci_Name_Dog">"Canis lupus familiaris"</string>
+    <string name="Pet_Sci_Name_Bird">"Aves"</string>
+    <string name="Pet_Sci_Name_Fish">"Osteichthyes"</string>
+
+    <string name="Pet_Name_Hint">"İsim"</string>
+    <string name="Pet_Name_Sample">"Pamuk"</string>
+
+    <string name="Pet_Age">"%1$d yaşında"</string>
+    <string name="Pet_Age_Hint">"Yaş (yıl)"</string>
+    <string name="Pet_Age_Sample">"5 yaşında"</string>
+
+    <string name="Pet_Height">"%1$d santimetre"</string>
+    <string name="Pet_Height_Hint">"Boy (cm)"</string>
+    <string name="Pet_Height_Sample">"30 santimetre"</string>
+
+    <string name="Pet_Weight">"%1$d gram"</string>
+    <string name="Pet_Weight_Hint">"Kütle (g)"</string>
+    <string name="Pet_Weight_Sample">"5000 gram"</string>
+
+    <string name="Pet_Breed_Hint">"Cins"</string>
+    <string name="Pet_Breed_Sample">"British Shorthair"</string>
+
+    <string name="Pet_Count_Sample">"0"</string>
+
+    <string name="Pet_Not_Specified">"???"</string>
+
+    <!-- Cat Breeds -->
+    <string name="Pet_Cat_Breed_1">"Ankara Kedisi"</string>
+    <string name="Pet_Cat_Breed_2">"Van Kedisi"</string>
+    <string name="Pet_Cat_Breed_3">"Birman"</string>
+    <string name="Pet_Cat_Breed_4">"İran Kedisi"</string>
+    <string name="Pet_Cat_Breed_5">"Siyam Kedisi"</string>
+    <!-- /Cat Breeds -->
+
+    <!-- Dog Breeds -->
+    <string name="Pet_Dog_Breed_1">"Cocker"</string>
+    <string name="Pet_Dog_Breed_2">"Beagle"</string>
+    <string name="Pet_Dog_Breed_3">"Labrador Retriever"</string>
+    <string name="Pet_Dog_Breed_4">"Pug"</string>
+    <string name="Pet_Dog_Breed_5">"Malta Köpeği"</string>
+    <!-- /Dog Breeds -->
+
+    <!-- Bird Breeds -->
+    <string name="Pet_Bird_Breed_1">"Muhabbet Kuşu"</string>
+    <string name="Pet_Bird_Breed_2">"Sultan Papağanı"</string>
+    <string name="Pet_Bird_Breed_3">"Kanarya"</string>
+    <string name="Pet_Bird_Breed_4">"Hint Bülbülü"</string>
+    <string name="Pet_Bird_Breed_5">"Cennet Papağanı"</string>
+    <!-- /Bird Breeds -->
+
+    <!-- Fish Breeds -->
+    <string name="Pet_Fish_Breed_1">"Japon Balığı"</string>
+    <string name="Pet_Fish_Breed_2">"Çöpçü Balığı"</string>
+    <string name="Pet_Fish_Breed_3">"Sarı Prenses"</string>
+    <string name="Pet_Fish_Breed_4">"Melek Balığı"</string>
+    <string name="Pet_Fish_Breed_5">"Kılıç Kuyruk"</string>
+    <!-- /Fish Breeds -->
+    <!-- /Pet -->
+
+    <!-- No Pet -->
+    <string name="No_Pet">"Sağ üstteki + butonunu kullanarak kendi evcil hayvanlarınızı ekleyebilirsiniz."</string>
+    <!-- /No Pet -->
+    <!-- /PetFragment -->
+    <!-- /MainActivity -->
+
+    <!-- GuideActivity -->
+    <string name="Guide_Title">"Bakım Rehberi"</string>
+
+    <!-- FoodFragment -->
+    <string name="Food_Title">"Besin Rehberi"</string>
+
+    <string name="FoodType_Healthy_Title">"Faydalı Besinler"</string>
+    <string name="FoodType_Unhealthy_Title">"Zararlı Besinler"</string>
+
+    <!-- Food -->
+    <string name="Food_Name_Sample">"Pişmiş Balık"</string>
+
+    <string name="Food_Calories">"%1$s kcal (100g)"</string>
+    <string name="Food_Calories_Hint">"Kalori: "</string>
+    <string name="Food_Calories_Sample">"206 kcal"</string>
+
+    <string name="Food_Fat">"%1$s g"</string>
+    <string name="Food_Fat_Hint">"Yağ: "</string>
+    <string name="Food_Fat_Sample">"12 g"</string>
+
+    <string name="Food_Carbohydrate">"%1$s g"</string>
+    <string name="Food_Carbohydrate_Hint">"Karbonhidrat: "</string>
+    <string name="Food_Carbohydrate_Sample">"0 g"</string>
+
+    <string name="Food_Protein">"%1$s g"</string>
+    <string name="Food_Protein_Hint">"Protein: "</string>
+    <string name="Food_Protein_Sample">"22 g"</string>
+    <!-- /Food -->
+    <!-- /FoodFragment -->
+
+    <!-- SleepFragment -->
+    <string name="Sleep_Title">"Uyku Rehberi"</string>
+    <string name="Sleep_Content">"Uyku Rehberi İçeriği"</string>
+    <!-- /SleepFragment -->
+
+    <!-- PlayFragment -->
+    <string name="Play_Title">"Oyun Rehberi"</string>
+    <string name="Play_Content">"Oyun Rehberi İçeriği"</string>
+    <!-- /PlayFragment -->
+
+    <!-- No Data -->
+    <string name="No_Data">"Veriler alınamadı, lütfen internet bağlantınızı kontrol edip uygulamayı yeniden başlatın."</string>
+    <!-- /No Data -->
+    <!-- /GuideActivity -->
+
+    <!-- Button -->
+    <string name="Confirm_Button">"Onayla"</string>
+    <string name="Cancel_Button">"İptal Et"</string>
+    <!-- /Button -->
+
+    <!-- Dialog -->
+    <string name="Permiss_Dialog_Title">"İzin Reddedildi"</string>
+    <string name="Permiss_Dialog_Message">"İzin kalıcı olarak reddedildi, ayarlara gidip izin vermeniz gerekiyor."</string>
+
+    <string name="Pet_Dialog_Message">"Seçili evcil hayvanları silmek istediğinizden emin misiniz?"</string>
+
+    <string name="Dialog_Yes">"Evet"</string>
+    <string name="Dialog_No">"Hayır"</string>
+
+    <string name="Dialog_Ok">"Tamam"</string>
+    <string name="Dialog_Cancel">"Çıkış"</string>
+    <!-- /Dialog -->
+
+    <!-- Toast -->
+    <string name="Back_Toast">"Çıkmak için tekrar basın"</string>
+    <string name="Permiss_Toast">"İzin reddedildi"</string>
+    <string name="Location_Toast">"Son konum alınamadı"</string>
+    <string name="Store_Toast">"Aradığınız evcil hayvan türünü sahiplenme imkanınız varsa lütfen satın almayınız"</string>
+    <!-- /Toast -->
+</resources>

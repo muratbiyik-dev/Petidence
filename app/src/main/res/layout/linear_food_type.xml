@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:foreground="@drawable/ripple_selectable"
+    android:background="@color/Button_BackColor"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_box_image_button"
+        >
+        <ImageView
+            android:id="@+id/ivFoodTypeIconFTL"
+            android:layout_width="@dimen/FoodType_Image_Width"
+            android:layout_height="@dimen/FoodType_Image_Height"
+            android:layout_margin="@dimen/App_Margin_M"
+            android:contentDescription="@string/CD_Icon"
+            android:src="@drawable/ic_food_bwhite_32"
+            />
+        <TextView
+            android:id="@+id/tvFoodTypeTitleFTL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/FoodType_Healthy_Title"
+            android:textSize="@dimen/App_TextSize_M"
+            android:textColor="@color/Button_TextColor"
+            />
+    </LinearLayout>
+</LinearLayout>

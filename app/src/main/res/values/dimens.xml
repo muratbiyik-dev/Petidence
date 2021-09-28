@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- App -->
+    <dimen name="App_Margin_S">5dp</dimen>
+    <dimen name="App_Margin_M">10dp</dimen>
+    <dimen name="App_MarginHor_S">5dp</dimen>
+    <dimen name="App_MarginHor_M">10dp</dimen>
+    <dimen name="App_MarginVer_S">5sp</dimen>
+    <dimen name="App_MarginVer_M">10sp</dimen>
+    <dimen name="App_Padding_S">5dp</dimen>
+    <dimen name="App_TextSize_S">18sp</dimen>
+    <dimen name="App_TextSize_M">20sp</dimen>
+    <!-- /App -->
+
+    <!-- Toolbar -->
+    <dimen name="Toolbar_TextSize">22dp</dimen>
+    <dimen name="Toolbar_Height">50dp</dimen>
+    <!-- /Toolbar -->
+
+    <!-- Dialog -->
+    <dimen name="Dialog_MinWidth">400dp</dimen>
+    <!-- /Dialog -->
+
+    <!-- Button -->
+    <dimen name="Button_Height">40sp</dimen>
+    <!-- /Button -->
+
+    <!-- Card -->
+    <dimen name="Card_TextSize">30sp</dimen>
+    <dimen name="Card_Box_Width">75sp</dimen>
+    <dimen name="Card_Box_Height">75sp</dimen>
+    <dimen name="Card_Header_Height">30sp</dimen>
+    <!-- /Card -->
+
+    <!-- Pet -->
+    <dimen name="Pet_Image_Width">155dp</dimen>
+    <dimen name="Pet_Image_Height">155sp</dimen>
+    <dimen name="Pet_Attribute_Height">35sp</dimen>
+    <dimen name="Pet_Spinner_Image_Width">75dp</dimen>
+    <dimen name="Pet_Spinner_Image_Height">75sp</dimen>
+    <!-- /Pet -->
+
+    <!-- Food -->
+    <dimen name="Food_Image_Width">155dp</dimen>
+    <dimen name="Food_Image_Height">115sp</dimen>
+    <dimen name="Food_Attribute_Height">35sp</dimen>
+    <dimen name="FoodType_Image_Width">32dp</dimen>
+    <dimen name="FoodType_Image_Height">32sp</dimen>
+    <!-- /Food -->
+</resources>

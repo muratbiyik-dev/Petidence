@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/itmHome"
+        android:icon="@drawable/selector_home_32"
+        />
+    <item
+        android:id="@+id/itmMap"
+        android:icon="@drawable/selector_map_32"
+        />
+    <item
+        android:id="@+id/itmPet"
+        android:icon="@drawable/selector_pet_32"
+        />
+</menu>

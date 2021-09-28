@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <style
+        name="AlertDialogTheme"
+        parent="Theme.AppCompat.Dialog.Alert"
+        >
+        <item name="colorAccent">@color/Card_AccentColor</item>
+        <item name="android:textColorPrimary">@color/Card_TextColor</item>
+        <item name="android:background">@color/Card_BackColor</item>
+    </style>
+
+    <style
+        name="SpinnerDialogTheme"
+        >
+        <item name="colorAccent">@color/Card_AccentColor</item>
+        <item name="android:textColorPrimary">@color/Card_TextColor</item>
+        <item name="android:background">@color/Card_BackColor</item>
+    </style>
+</resources>
